@@ -1,32 +1,38 @@
-<svg width="680" height="535" version="1.1"
-     baseProfile="full"
-     xmlns="http://www.w3.org/2000/svg">>
+<svg width="680" height="535" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">>
   <defs>
-    <linearGradient id="grad1" x1="20%" y1="5%" x2="0%" y2="85%">
+    <linearGradient id="body" x1="20%" y1="5%" x2="0%" y2="85%">
       <stop offset="30%" style="stop-color:#2CFF28;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#FFFB28;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="pecs" x1="20%" y1="5%" x2="0%" y2="85%">
+      <stop offset="30%" style="stop-color:green;stop-opacity:1" />
+      <stop offset="90%" style="stop-color:blue;stop-opacity:1" />
+    </linearGradient>
+
   </defs>
 
   <g id="fins">
-    <path id="dorsal" d="m105, 230
-             q500,-400 500,-100" stroke="white" stroke-width="5" fill="green" />
+    <path id="dorsal" d="m75, 230
+             q500,-400 535,-100" stroke="white" stroke-width="5" fill="green" />
+
     <path id="pectoral" d="m540,395
-             q-60,275 -50,5" stroke="white" stroke-width="5" fill="green" />
+             q-90,275 -50,5" stroke="white" stroke-width="5" fill="url(#pecs)" />
+    <path id="tail" d=""/>
   </g>
 
   <g id="body">
     <path d="m80,230
              c800,-475 800,525 0,50
-             " stroke="white" stroke-width="5" fill="url(#grad1)" />
+             " stroke="white" stroke-width="5" fill="url(#body)" />
     <path id="mouth" d="m705,305
             l-100,15
             l100,35" stroke-width="5" stroke="white" fill="white" />
   </g>
 
   <g id="eye">
-    <circle r='7' cx='605' cy='255' <!-- stroke="black" stroke-width='5' --> fill="black" />
+    <circle r='10' cx='605' cy='255' fill="black" />
   </g>
+
   <g id="spots">
     <circle r='7' cx='380' cy='295' fill="blue" />
     <circle r='6' cx='425' cy='345' fill="blue" />
@@ -38,6 +44,11 @@
     <circle r='9' cx='300' cy='265' fill="blue" />
     <circle r='7' cx='250' cy='240' fill="blue" />
   </g>
+
+  <path id="wing" d="m550,325
+                     q-40,-60 -175,-65
+                     q100,30 120,90
+                     l30,0z" stroke="white" stroke-width="5" fill="green" />
 
   <!-- <path d="m200 350q225,-200 500,0
              q-25 150, -500 0" stroke="#000" stroke-width="1" fill="none" /> -->
