@@ -17,12 +17,14 @@
 
     <path id="pectoral" d="m540,395
              q-90,275 -50,5" stroke="white" stroke-width="5" fill="url(#pecs)" />
-    <path id="tail" d=""/>
   </g>
 
   <g id="body">
     <path d="m80,230
              c800,-475 800,525 0,50
+             q0,0 -80,160
+             q50,-155 0,-370
+             q0,0 80,160z
              " stroke="white" stroke-width="5" fill="url(#body)" />
     <path id="mouth" d="m705,305
             l-100,15
@@ -34,15 +36,17 @@
   </g>
 
   <g id="spots">
+    <circle r='7' cx='150' cy='270' fill="blue" />
+    <circle r='4' cx='200' cy='255' fill="blue" />
+    <circle r='3' cx='200' cy='305' fill="blue" />
+    <circle r='7' cx='250' cy='240' fill="blue" />
+    <circle r='4' cx='285' cy='300' fill="blue" />
+    <circle r='9' cx='320' cy='265' fill="blue" />
+    <circle r='3' cx='325' cy='335' fill="blue" />
     <circle r='7' cx='380' cy='295' fill="blue" />
+    <circle r='8' cx='400' cy='335' fill="blue" />
     <circle r='6' cx='425' cy='345' fill="blue" />
     <circle r='7' cx='500' cy='265' fill="blue" />
-    <circle r='8' cx='400' cy='335' fill="blue" />
-    <circle r='7' cx='150' cy='270' fill="blue" />
-    <circle r='3' cx='200' cy='305' fill="blue" />
-    <circle r='4' cx='200' cy='255' fill="blue" />
-    <circle r='9' cx='300' cy='265' fill="blue" />
-    <circle r='7' cx='250' cy='240' fill="blue" />
   </g>
 
   <path id="wing" d="m550,325
